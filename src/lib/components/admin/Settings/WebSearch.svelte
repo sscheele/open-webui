@@ -497,7 +497,7 @@
 
 					<div class="  mb-2.5 flex w-full justify-between">
 						<div class=" self-center text-xs font-medium">
-							{$i18n.t('Bypass SSL verification for Websites')}
+							{$i18n.t('Enable SSL verification for Websites')}
 						</div>
 						<div class="flex items-center relative">
 							<Switch bind:state={webConfig.ENABLE_RAG_WEB_LOADER_SSL_VERIFICATION} />
